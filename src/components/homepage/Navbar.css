@@ -1,0 +1,33 @@
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  padding: 24px;
+  background-color: black;
+  align-items: center;
+}
+.nav-header {
+  color: white;
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: bold;
+}
+.nav-section {
+  color: white;
+  text-decoration: none;
+}
+.nav-button {
+  text-decoration: none;
+  background-color: yellow;
+  border: none;
+  padding: 6px 44px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 32px;
+  transition: background-color 0.3s, color 0.3s;
+  color: black;
+}
+.nav-button:hover {
+  background-color: rgba(255, 255, 0, 0.888);
+}
